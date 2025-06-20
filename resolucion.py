@@ -9,7 +9,7 @@ laberinto = [
     [1,0,0,1,0,1,0,0,4],
     ['I',1,3,1,0,1,1,1,1]
 ]
-# tomar 'F' e 'I' como camino 1 
+
 for i in range(9):
     for j in range(9):
         if laberinto[i][j]=='I' or laberinto[i][j]=='F':
@@ -17,17 +17,7 @@ for i in range(9):
 caminoCorrecto=[]
 encontrado=False
 
-laberinto = [
-    ['F', 1, 1, 3, 0, 1, 1, 1, 4],
-    [3, 0, 0, 1, 0, 1, 0, 0, 1],
-    [1, 1, 0, 1, 1, 1, 1, 0, 1],
-    [0, 1, 0, 1, 0, 0, 1, 0, 1],
-    [1, 1, 1, 1, 1, 1, 3, 1, 1],
-    [3, 0, 1, 0, 0, 0, 1, 0, 1],
-    [1, 1, 1, 1, 3, 1, 1, 1, 1],
-    [1, 0, 0, 1, 0, 1, 0, 0, 4],
-    ['I', 1, 3, 1, 0, 1, 1, 1, 1]
-]
+
 
 
 for i in range(10-1):
