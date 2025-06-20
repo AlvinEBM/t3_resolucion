@@ -10,15 +10,6 @@ laberinto = [
     ['I',1,3,1,0,1,1,1,1]
 ]
 
-for i in range(9):
-    for j in range(9):
-        if laberinto[i][j]=='I' or laberinto[i][j]=='F':
-            laberinto[i][j]=1
-caminoCorrecto=[]
-encontrado=False
-
-
-
 
 for i in range(10-1):
     for j in range(10-1):
